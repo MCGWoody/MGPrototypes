@@ -1,0 +1,474 @@
+﻿[2015.07.10-05.27.47:457][  0]Log file open, 07/09/15 22:27:47
+[2015.07.10-05.27.47:457][  0]LogInit:Display: Running engine for game: ShootyShoot
+[2015.07.10-05.27.47:457][  0]LogInit:Display: RandInit(153644306) SRandInit(153644306).
+[2015.07.10-05.27.47:457][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.10-05.27.47:457][  0]LogStats: Stats thread started
+[2015.07.10-05.27.47:457][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.10-05.27.47:457][  0]LogInit: API Version: 2579680
+[2015.07.10-05.27.47:457][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.10-05.27.47:457][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.10-05.27.47:457][  0]LogInit: Build Configuration: Development
+[2015.07.10-05.27.47:457][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.10-05.27.47:457][  0]LogInit: Command line: 
+[2015.07.10-05.27.47:457][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.10-05.27.47:457][  0]LogInit: Rocket: 1
+[2015.07.10-05.27.47:470][  0]LogInit: Using libcurl 7.41.0
+[2015.07.10-05.27.47:470][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.10-05.27.47:470][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.10-05.27.47:470][  0]LogInit:  - other features:
+[2015.07.10-05.27.47:470][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.10-05.27.47:470][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.10-05.27.47:470][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.10-05.27.47:470][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.10-05.27.47:470][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.10-05.27.47:470][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.10-05.27.47:470][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.10-05.27.47:470][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.10-05.27.47:470][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.10-05.27.47:470][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.10-05.27.47:482][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.10-05.27.47:496][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.10-05.27.47:502][  0]LogInit: Object subsystem initialized
+[2015.07.10-05.27.47:510][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.10-05.27.47:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.10-05.27.47:514][  0]LogInit: Computer: SVEN
+[2015.07.10-05.27.47:514][  0]LogInit: User: garre000
+[2015.07.10-05.27.47:514][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.10-05.27.47:514][  0]LogInit: High frequency timer resolution =2.435769 MHz
+[2015.07.10-05.27.47:515][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.07.10-05.27.47:515][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.10-05.27.47:515][  0]LogMemory: Process Physical Memory: 47.73 MB used, 47.73 MB peak
+[2015.07.10-05.27.47:515][  0]LogMemory: Process Virtual Memory: 20.52 MB used, 20.52 MB peak
+[2015.07.10-05.27.47:515][  0]LogMemory: Physical Memory: 10594.22 MB used, 12206.96 MB total
+[2015.07.10-05.27.47:515][  0]LogMemory: Virtual Memory: 292.22 MB used, 134217728.00 MB total
+[2015.07.10-05.27.47:545][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.10-05.27.47:746][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.10-05.27.48:215][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 860M  (Feature Level 11_0)
+[2015.07.10-05.27.48:215][  0]LogD3D11RHI: Adapter has 1985MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.07.10-05.27.48:222][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.10-05.27.48:222][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.07.10-05.27.48:223][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.10-05.27.48:223][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.10-05.27.48:223][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.10-05.27.48:228][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.10-05.27.48:239][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.10-05.27.48:256][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.10-05.27.49:054][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.10-05.27.49:074][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.10-05.27.49:089][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.10-05.27.49:102][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.10-05.27.49:117][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.10-05.27.49:129][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.10-05.27.49:142][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.10-05.27.49:154][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.10-05.27.49:168][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.10-05.27.49:179][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.10-05.27.49:190][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.10-05.27.49:200][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.10-05.27.49:245][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.10-05.27.49:257][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.10-05.27.49:270][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.10-05.27.49:284][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.10-05.27.49:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.10-05.27.49:479][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/garre_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/garre_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/projects/Games/Tests/ShootyShoot/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/projects/Games/Tests/ShootyShoot/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.10-05.27.49:533][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.10-05.27.49:680][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.10-05.27.49:692][  0]LogDerivedDataCache: Using Local data cache path C:/Users/garre_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.10-05.27.49:883][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.10-05.27.49:968][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.10-05.27.49:968][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.10-05.27.49:998][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.10-05.27.49:998][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.10-05.27.50:379][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.10-05.27.51:319][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.10-05.27.51:620][  0]SourceControl: Info Source control is disabled
+[2015.07.10-05.27.51:620][  0]SourceControl: Info Source control is disabled
+[2015.07.10-05.27.51:630][  0]SourceControl: Info Source control is disabled
+[2015.07.10-05.27.51:639][  0]SourceControl: Info Source control is disabled
+[2015.07.10-05.27.51:846][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.10-05.27.51:846][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.07.10-05.27.51:917][  0]LogEngine: Initializing Engine...
+[2015.07.10-05.27.51:919][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.10-05.27.51:920][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.10-05.27.52:057][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.10-05.27.52:065][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.27.52:071][  0]LogInit: FAudioDevice initialized.
+[2015.07.10-05.27.52:098][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/garre_000/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.10-05.27.52:102][  0]LogInit: Texture streaming: Disabled
+[2015.07.10-05.27.52:122][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.10-05.27.52:122][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.10-05.27.52:122][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c89a72d4419b5247e9dd60b477e8fe3b|26f8d786b432459c8aa4ddd4c0f99680|364bf4d8-4bbe-4c1e-abf6-e78c79f1106f
+[2015.07.10-05.27.52:122][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.10-05.27.52:147][  0]LogInit: Transaction tracking system initialized
+[2015.07.10-05.27.52:279][  0]BlueprintLog: New page: Editor Load
+[2015.07.10-05.27.52:313][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.07.10-05.27.52:313][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.10-05.27.54:255][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.10-05.27.54:316][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.10-05.27.54:316][  0]LogConsoleResponse:Display: 
+[2015.07.10-05.27.54:419][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.10-05.27.54:578][  0]SourceControl: Info Source control is disabled
+[2015.07.10-05.27.54:578][  0]Cmd: MAP LOAD FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.10-05.27.54:579][  0]LightingResults: New page: Lighting Build
+[2015.07.10-05.27.54:590][  0]MapCheck: New page: Map Check
+[2015.07.10-05.27.54:590][  0]LightingResults: New page: Lighting Build
+[2015.07.10-05.27.54:599][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A8168B80
+[2015.07.10-05.27.55:551][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.27.55:587][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.10-05.27.55:591][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.10-05.27.55:628][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.772ms to complete.
+[2015.07.10-05.27.55:628][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.050
+[2015.07.10-05.27.55:846][  0]LogCollectionManager: Loaded 0 collections in 0.002526 seconds
+[2015.07.10-05.27.55:856][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 1792 classes and 301 folders.
+[2015.07.10-05.27.55:937][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2015.07.10-05.27.56:002][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.10-05.27.56:083][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.07.10-05.27.56:235][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.10-05.27.56:261][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.10-05.27.56:287][  0]LogLoad: Full Startup: 10.02 seconds (BP compile: 0.37 seconds)
+[2015.07.10-05.27.56:382][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.10-05.27.56:424][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.10-05.27.56:610][  0]LogRenderer: Reallocating scene render targets to support 1112x928 (Frame:2).
+[2015.07.10-05.27.57:573][  8]LogAssetRegistry: Asset discovery search completed in 5.2713 seconds
+[2015.07.10-05.28.05:089][325]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.28.05:100][325]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:28:05 PM)
+[2015.07.10-05.28.05:101][325]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.28.05:135][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034352s)
+[2015.07.10-05.28.05:137][325]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.28.05:138][325]LogPlayLevel: PIE: World Init took: (0.002214s)
+[2015.07.10-05.28.05:139][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038090s)
+[2015.07.10-05.28.05:213][325]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.28.05:218][325]LogInit: FAudioDevice initialized.
+[2015.07.10-05.28.05:289][325]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.28.05:305][325]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.28.05:305][325]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.28.05
+[2015.07.10-05.28.05:305][325]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.28.05:307][325]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.28.05:312][325]LogWorld: Bringing up level for play took: 0.010862
+[2015.07.10-05.28.05:331][325]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.74
+[2015.07.10-05.29.06:668][366]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A23FAD40
+[2015.07.10-05.29.08:175][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.10-05.29.08:975][454]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2015.07.10-05.29.30:690][174]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.29.30:690][174]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:29:30 PM)
+[2015.07.10-05.29.30:690][174]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.29.30:723][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032288s)
+[2015.07.10-05.29.30:726][174]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.29.30:728][174]LogPlayLevel: PIE: World Init took: (0.004925s)
+[2015.07.10-05.29.30:728][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037768s)
+[2015.07.10-05.29.30:728][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.29.30:790][174]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.29.30:795][174]LogInit: FAudioDevice initialized.
+[2015.07.10-05.29.30:841][174]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.29.30:847][174]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.29.30:847][174]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.29.30
+[2015.07.10-05.29.30:847][174]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.29.30:848][174]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.29.30:850][174]LogWorld: Bringing up level for play took: 0.007984
+[2015.07.10-05.29.30:852][174]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.781
+[2015.07.10-05.29.38:395][539]LogSelection:Warning: PIE object was selected: "TopDownCharacter_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter2_354"
+[2015.07.10-05.29.43:611][759]LogSelection:Warning: PIE object was selected: "TopDownCharacter_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter2_354"
+[2015.07.10-05.29.49:592][927]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2015.07.10-05.29.49:592][927]LogSelection:Warning: PIE object was selected: "TopDownCharacter_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_1"
+[2015.07.10-05.29.52:014][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.10-05.29.52:014][990]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Floor_24"
+[2015.07.10-05.29.52:799][ 14]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter2)
+[2015.07.10-05.29.52:799][ 14]LogSelection:Warning: PIE object was selected: "TopDownCharacter_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter2_354"
+[2015.07.10-05.29.56:676][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018A3F0AF20
+[2015.07.10-05.30.04:081][482]LogEditorViewport: Clicking on Actor (context menu): TopDownCharacter_C (TopDownCharacter2)
+[2015.07.10-05.30.05:125][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.10-05.30.05:915][542]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter2)
+[2015.07.10-05.30.13:393][811]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.10-05.30.13:431][811]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.10-05.30.27:427][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.10-05.30.28:088][248]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter2)
+[2015.07.10-05.30.28:422][257]Cmd: DELETE
+[2015.07.10-05.30.28:422][257]Cmd: ACTOR DELETE
+[2015.07.10-05.30.28:429][257]LogEditorActor: Deleted Actor: TopDownCharacter_C
+[2015.07.10-05.30.28:506][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.30.28:539][257]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2015.07.10-05.30.29:856][308]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.30.29:856][308]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:30:29 PM)
+[2015.07.10-05.30.29:873][308]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.30.29:910][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037097s)
+[2015.07.10-05.30.29:912][308]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.30.29:912][308]LogPlayLevel: PIE: World Init took: (0.002058s)
+[2015.07.10-05.30.29:913][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039417s)
+[2015.07.10-05.30.29:953][308]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.30.29:960][308]LogInit: FAudioDevice initialized.
+[2015.07.10-05.30.29:999][308]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.30.30:005][308]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.30.30:005][308]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.30.30
+[2015.07.10-05.30.30:005][308]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.30.30:005][308]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.30.30:006][308]LogWorld: Bringing up level for play took: 0.004994
+[2015.07.10-05.30.30:007][308]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.064
+[2015.07.10-05.32.21:319][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001899FF07C0
+[2015.07.10-05.33.53:542][390]LogRenderer: Reallocating scene render targets to support 1144x928 (Frame:13851).
+[2015.07.10-05.34.07:148][994]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.34.14:432][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.07.10-05.34.16:414][416]BlueprintLog: New page: Compile TopDownCharacter
+[2015.07.10-05.34.16:490][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.07.10-05.34.16:534][416]BlueprintEditorCompileResults: Info [0390.27] Compile of TopDownCharacter successful! [in 118 ms]
+[2015.07.10-05.34.26:542][929]BlueprintLog: New page: Compile TopDownCharacter
+[2015.07.10-05.34.26:610][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.34.26:659][929]BlueprintEditorCompileResults: Info [0400.39] Compile of TopDownCharacter successful! [in 116 ms]
+[2015.07.10-05.36.37:711][544]BlueprintLog: New page: Compile TopDownCharacter
+[2015.07.10-05.36.37:765][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.36.37:812][544]BlueprintEditorCompileResults: Info [0531.54] Compile of TopDownCharacter successful! [in 101 ms]
+[2015.07.10-05.36.40:418][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2015.07.10-05.36.40:466][663]LogSavePackage: Save=45.852871ms
+[2015.07.10-05.36.40:466][663]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownCharacter780213374F28E33ECA31E5922BFA54CA.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2015.07.10-05.36.45:493][838]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.36.45:493][838]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:36:45 PM)
+[2015.07.10-05.36.45:493][838]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.36.45:516][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023184s)
+[2015.07.10-05.36.45:517][838]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.36.45:518][838]LogPlayLevel: PIE: World Init took: (0.001676s)
+[2015.07.10-05.36.45:518][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025102s)
+[2015.07.10-05.36.45:518][838]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.36.45:564][838]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.36.45:574][838]LogInit: FAudioDevice initialized.
+[2015.07.10-05.36.45:613][838]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.36.45:619][838]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.36.45:619][838]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.36.45
+[2015.07.10-05.36.45:619][838]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.36.45:619][838]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.36.45:620][838]LogWorld: Bringing up level for play took: 0.005175
+[2015.07.10-05.36.45:621][838]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.45
+[2015.07.10-05.37.14:936][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018C84480E0
+[2015.07.10-05.37.50:201][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.10-05.37.50:475][941]LogSavePackage: Save=238.658508ms
+[2015.07.10-05.37.50:475][941]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownExampleMapA4D4D68D409D4DEE313B2998DAEAC16F.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.07.10-05.37.53:318][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2015.07.10-05.37.53:335][ 42]LogSavePackage: Save=16.518808ms
+[2015.07.10-05.37.53:335][ 42]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownCharacterFEA685C5413C5BDBD76915B571C7415E.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2015.07.10-05.37.56:891][158]LogActor:Warning: GameNetworkManager /Engine/Transient.World_10:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.38.02:991][390]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.10-05.38.07:678][563]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.38.07:679][563]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:38:07 PM)
+[2015.07.10-05.38.07:679][563]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.38.07:707][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027730s)
+[2015.07.10-05.38.07:708][563]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.38.07:708][563]LogPlayLevel: PIE: World Init took: (0.001524s)
+[2015.07.10-05.38.07:709][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029500s)
+[2015.07.10-05.38.07:709][563]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.38.07:753][563]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.38.07:759][563]LogInit: FAudioDevice initialized.
+[2015.07.10-05.38.07:797][563]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.38.07:803][563]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.38.07:803][563]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.38.07
+[2015.07.10-05.38.07:803][563]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.38.07:804][563]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.38.07:804][563]LogWorld: Bringing up level for play took: 0.005332
+[2015.07.10-05.38.07:806][563]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.266
+[2015.07.10-05.38.13:172][824]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018C4BCD800
+[2015.07.10-05.38.47:008][416]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.07.10-05.38.48:273][484]BlueprintLog: New page: Compile TopDownCharacter
+[2015.07.10-05.38.48:354][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.38.48:411][484]BlueprintEditorCompileResults: Info [0662.14] Compile of TopDownCharacter successful! [in 137 ms]
+[2015.07.10-05.38.53:983][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_SpawnActorFromClass /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_SpawnActorFromClass_1 or K2Node_SpawnActorFromClass /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_SpawnActorFromClass_1
+[2015.07.10-05.38.53:983][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_20035) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_InputAction_18.EdGraphPin_19545).  Import failed...
+[2015.07.10-05.38.53:983][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_SpawnActorFromClass_1.EdGraphPin_20035''
+[2015.07.10-05.38.53:984][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2176 or K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_CallFunction_2176
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2176.EdGraphPin_20050) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_20036).  Import failed...
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2176.EdGraphPin_20050''
+[2015.07.10-05.38.53:984][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2174 or K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_CallFunction_2174
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2174.EdGraphPin_20047) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_20038).  Import failed...
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2174.EdGraphPin_20047''
+[2015.07.10-05.38.53:984][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_VariableGet_42 or K2Node_VariableGet /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_VariableGet_42
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_VariableGet_42.EdGraphPin_20056) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_20041).  Import failed...
+[2015.07.10-05.38.53:984][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_42.EdGraphPin_20056''
+[2015.07.10-05.38.53:985][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2175 or K2Node_CallFunction /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_CallFunction_2175
+[2015.07.10-05.38.53:985][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_CallFunction_2175.EdGraphPin_20049) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_CallFunction_2174.EdGraphPin_20044).  Import failed...
+[2015.07.10-05.38.53:985][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2175.EdGraphPin_20049''
+[2015.07.10-05.38.53:986][715]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_VariableGet_42 or K2Node_VariableGet /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_VariableGet_42
+[2015.07.10-05.38.53:986][715]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter:EventGraph.K2Node_VariableGet_42.EdGraphPin_20055) from referencer (EdGraphPin /Game/TopDownBP/Blueprints/TopDownController.TopDownController:EventGraph.K2Node_CallFunction_2176.EdGraphPin_20052).  Import failed...
+[2015.07.10-05.38.53:986][715]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_42.EdGraphPin_20055''
+[2015.07.10-05.38.57:714][869]BlueprintLog: New page: Compile TopDownController
+[2015.07.10-05.38.57:789][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.38.57:828][869]BlueprintEditorCompileResults: Info [0671.56] Compile of TopDownController successful! [in 114 ms]
+[2015.07.10-05.38.59:800][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.07.10-05.38.59:849][947]LogSavePackage: Save=47.579224ms
+[2015.07.10-05.38.59:849][947]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownController337EC94B4D36924BA030FA83B627962C.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.07.10-05.39.01:716][999]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.39.01:716][999]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:39:01 PM)
+[2015.07.10-05.39.01:716][999]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.39.01:747][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030346s)
+[2015.07.10-05.39.01:749][999]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.39.01:750][999]LogPlayLevel: PIE: World Init took: (0.003177s)
+[2015.07.10-05.39.01:750][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033798s)
+[2015.07.10-05.39.01:799][999]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.39.01:803][999]LogInit: FAudioDevice initialized.
+[2015.07.10-05.39.01:841][999]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.39.01:847][999]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.39.01:847][999]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.39.01
+[2015.07.10-05.39.01:847][999]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.39.01:847][999]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.39.01:847][999]LogWorld: Bringing up level for play took: 0.005116
+[2015.07.10-05.39.01:849][999]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.223
+[2015.07.10-05.39.03:289][ 66]PIE:Warning: Warning Mobility of StaticMeshActor_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.39.03:290][ 66]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_2.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.39.04:022][103]PIE:Warning: Warning Mobility of StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.39.04:022][103]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_3.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.39.04:237][114]PIE:Warning: Warning Mobility of StaticMeshActor_4 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.39.04:237][114]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_4.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.39.04:387][121]PIE:Warning: Warning Mobility of StaticMeshActor_5 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.39.04:388][121]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_5.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.39.16:800][630]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_SpawnActorFromClass', from offset 145
+[2015.07.10-05.39.16:800][630]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:InpActEvt_Fire_K2Node_InputActionEvent_5
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:ExecuteUbergraph_TopDownController
+
+[2015.07.10-05.39.30:592][630]PIE:Warning: Warning Mobility of StaticMeshActor_6 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.39.30:592][630]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_6.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.39.30:706][631]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018B19B5940
+[2015.07.10-05.39.39:590][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.07.10-05.39.39:636][ 17]LogSavePackage: Save=45.039986ms
+[2015.07.10-05.39.39:636][ 17]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownController10ACA2684FC0D87F5ED34A880B254030.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.07.10-05.39.43:990][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2015.07.10-05.39.44:007][150]LogSavePackage: Save=16.186674ms
+[2015.07.10-05.39.44:007][150]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownCharacter800C608E4AE2EFE366983D9860C1B4E7.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2015.07.10-05.39.59:525][884]BlueprintLog: New page: Compile TopDownController
+[2015.07.10-05.39.59:598][884]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.39.59:643][884]BlueprintEditorCompileResults: Info [0733.38] Compile of TopDownController successful! [in 118 ms]
+[2015.07.10-05.40.01:318][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.07.10-05.40.01:367][939]LogSavePackage: Save=48.359264ms
+[2015.07.10-05.40.01:367][939]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownController787DDC684497D42CC06720888273335B.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.07.10-05.40.02:883][  1]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.40.02:883][  1]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:40:02 PM)
+[2015.07.10-05.40.02:884][  1]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.40.02:909][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025390s)
+[2015.07.10-05.40.02:910][  1]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.40.02:911][  1]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2015.07.10-05.40.02:911][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027440s)
+[2015.07.10-05.40.02:950][  1]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.40.02:957][  1]LogInit: FAudioDevice initialized.
+[2015.07.10-05.40.02:993][  1]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.40.02:999][  1]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.40.03:000][  1]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.40.02
+[2015.07.10-05.40.03:000][  1]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.40.03:000][  1]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.40.03:000][  1]LogWorld: Bringing up level for play took: 0.005127
+[2015.07.10-05.40.03:001][  1]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.931
+[2015.07.10-05.40.04:363][ 68]PIE:Warning: Warning Mobility of StaticMeshActor_7 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.04:363][ 68]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_7.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.05:069][103]PIE:Warning: Warning Mobility of StaticMeshActor_8 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.05:069][103]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_8.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.05:432][121]PIE:Warning: Warning Mobility of StaticMeshActor_9 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.05:432][121]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_9.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.05:615][129]PIE:Warning: Warning Mobility of StaticMeshActor_10 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.05:615][129]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_10.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.05:765][136]PIE:Warning: Warning Mobility of StaticMeshActor_11 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.05:765][136]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_11.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.05:965][146]PIE:Warning: Warning Mobility of StaticMeshActor_12 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.05:965][146]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_12.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.06:135][155]PIE:Warning: Warning Mobility of StaticMeshActor_13 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.06:135][155]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_13.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.06:314][164]PIE:Warning: Warning Mobility of StaticMeshActor_14 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.06:315][164]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.06:466][171]PIE:Warning: Warning Mobility of StaticMeshActor_15 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.06:466][171]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_15.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.07:116][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018C53245E0
+[2015.07.10-05.40.27:929][ 20]BlueprintLog: New page: Compile TopDownController
+[2015.07.10-05.40.28:044][ 20]BlueprintEditorCompileResults: Info [0761.78] Compile of TopDownController successful! [in 114 ms]
+[2015.07.10-05.40.32:297][107]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.40.32:297][107]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:40:32 PM)
+[2015.07.10-05.40.32:298][107]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.40.32:329][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031401s)
+[2015.07.10-05.40.32:330][107]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.40.32:331][107]LogPlayLevel: PIE: World Init took: (0.001955s)
+[2015.07.10-05.40.32:331][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033639s)
+[2015.07.10-05.40.32:380][107]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.40.32:386][107]LogInit: FAudioDevice initialized.
+[2015.07.10-05.40.32:417][107]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.40.32:425][107]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.40.32:425][107]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.40.32
+[2015.07.10-05.40.32:425][107]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.40.32:425][107]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.40.32:426][107]LogWorld: Bringing up level for play took: 0.006701
+[2015.07.10-05.40.32:428][107]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.357
+[2015.07.10-05.40.33:794][173]PIE:Warning: Warning Mobility of StaticMeshActor_16 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.33:794][173]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_16.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.34:376][204]PIE:Warning: Warning Mobility of StaticMeshActor_17 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.34:376][204]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_17.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.34:677][220]PIE:Warning: Warning Mobility of StaticMeshActor_18 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.34:677][220]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_18.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.34:860][230]PIE:Warning: Warning Mobility of StaticMeshActor_19 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.34:860][230]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_19.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.35:078][241]PIE:Warning: Warning Mobility of StaticMeshActor_20 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.35:078][241]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_20.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.35:377][255]PIE:Warning: Warning Mobility of StaticMeshActor_21 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.35:377][255]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_21.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.35:716][271]PIE:Warning: Warning Mobility of StaticMeshActor_22 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.35:716][271]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_22.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.35:995][285]PIE:Warning: Warning Mobility of StaticMeshActor_23 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.35:995][285]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_23.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.36:269][300]PIE:Warning: Warning Mobility of StaticMeshActor_24 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.36:269][300]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_24.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.36:496][312]PIE:Warning: Warning Mobility of StaticMeshActor_25 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2015.07.10-05.40.36:496][312]PIE:Warning: Warning Calling SetStaticMesh on '/Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_25.StaticMeshComponent0' but Mobility is Static.
+[2015.07.10-05.40.42:200][617]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_16"
+[2015.07.10-05.40.45:688][750]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.StaticMeshActor_18"
+[2015.07.10-05.40.50:700][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000018CA93AD40
+[2015.07.10-05.41.29:809][365]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.07.10-05.41.31:086][413]BlueprintLog: New page: Compile Projectile
+[2015.07.10-05.41.31:209][413]BlueprintEditorCompileResults: Info [0824.94] Compile of Projectile successful! [in 122 ms]
+[2015.07.10-05.41.34:717][537]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.07.10-05.41.40:760][816]BlueprintLog: New page: Compile TopDownController
+[2015.07.10-05.41.40:881][816]BlueprintEditorCompileResults: Info [0834.61] Compile of TopDownController successful! [in 121 ms]
+[2015.07.10-05.41.42:271][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.07.10-05.41.42:321][878]LogSavePackage: Save=48.734917ms
+[2015.07.10-05.41.42:321][878]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownController61506F4A4A9FA2653F870B87AD8ACEC4.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.07.10-05.41.45:046][989]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.10-05.41.45:046][989]PIE: New page: PIE session: TopDownExampleMap (Jul 9, 2015, 3:41:45 PM)
+[2015.07.10-05.41.45:081][989]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2015.07.10-05.41.45:115][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033731s)
+[2015.07.10-05.41.45:116][989]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.07.10-05.41.45:117][989]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2015.07.10-05.41.45:117][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.035524s)
+[2015.07.10-05.41.45:167][989]LogInit: XAudio2 using 'Headset Earphone (Corsair Gaming H2100 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.10-05.41.45:176][989]LogInit: FAudioDevice initialized.
+[2015.07.10-05.41.45:214][989]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.07.10-05.41.45:219][989]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.07.10-05.41.45:219][989]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.07.09-22.41.45
+[2015.07.10-05.41.45:219][989]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.41.45:220][989]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.10-05.41.45:220][989]LogWorld: Bringing up level for play took: 0.004929
+[2015.07.10-05.41.45:221][989]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.151
+[2015.07.10-05.41.56:833][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.10-05.41.57:081][543]LogSavePackage: Save=214.982208ms
+[2015.07.10-05.41.57:081][543]LogSavePackage: Moving 'D:/projects/Games/Tests/ShootyShoot/Saved/TopDownExampleMapB10D689F4B2A6C99F16CD8AF17A0FBAB.tmp' to 'D:/projects/Games/Tests/ShootyShoot/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.07.10-05.41.58:048][580]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.WAll2_25"
+[2015.07.10-05.42.01:132][700]LogSelection:Warning: PIE object was selected: "Projectile_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.Projectile_C_8"
+[2015.07.10-05.43.36:488][794]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 634]
+Type mismatch: Expected TopDownExampleMap_C, Found LevelScriptBlueprint
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ffddfdaa806} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ffddfc44031} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ffddfc442e3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UBlueprint::SetObjectBeingDebugged() {0x00007ffdd6d96579} + 281 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::TransferBlueprintDebugReferences() {0x00007ffdd75769ab} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::TeardownPlaySession() {0x00007ffdd55867ad} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::EndPlayMap() {0x00007ffdd55240b3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ffdd5327f16} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ffdd57e87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff631f342d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff631f249cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff631f24a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff631f365c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff631f375d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffe109713d2} + 0 bytes
+ntdll.dll {0x00007ffe12bd5444} + 0 bytes
+ntdll.dll {0x00007ffe12bd5444} + 0 bytes
+
